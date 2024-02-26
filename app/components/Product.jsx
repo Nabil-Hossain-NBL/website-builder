@@ -1,7 +1,6 @@
 import Image from "next/image";
 import icon5 from "@/public/icon5.svg";
 import FiveStar from "@/public/FiveStar.png";
-import FourStar from "@/public/FourStar.png";
 import FourHalfStar from "@/public/FourHalfStar.png";
 
 async function Product({ product }) {
@@ -41,7 +40,7 @@ async function Product({ product }) {
                             </div>
                             <div className="flex justify-center">
                                 {
-                                    product.star === 5 && <Image src={FiveStar} alt="" /> || product.star === 4 && <Image src={FourStar} alt="" />
+                                    product.star === 5 && <Image src={FiveStar} alt="" /> || product.star === 4.5 && <Image src={FourHalfStar} alt="" />
                                 }
                             </div>
                         </div>

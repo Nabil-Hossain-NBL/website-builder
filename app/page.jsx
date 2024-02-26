@@ -5,6 +5,7 @@ import icon3 from "@/public/icon3.svg";
 import icon4 from "@/public/icon4.svg";
 import ProductsSection from "@/app/components/ProductsSection";
 import AllSaleProducts from "./components/AllSaleProducts";
+import FeaturedProduct from "./components/FeaturedProduct";
 
 
 export default function Home() {
@@ -56,6 +57,8 @@ export default function Home() {
         <br />
 
         <ProductsSection />
+        <br /><br />
+        <FeaturedProduct />
         <br /><hr /><br />
         <AllSaleProducts />
 
