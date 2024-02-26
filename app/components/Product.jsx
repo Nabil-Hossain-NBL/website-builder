@@ -1,5 +1,6 @@
 import Image from "next/image";
 import icon5 from "@/public/icon5.svg";
+import icon7 from "@/public/icon7.svg";
 import FiveStar from "@/public/FiveStar.png";
 import FourHalfStar from "@/public/FourHalfStar.png";
 
@@ -7,9 +8,15 @@ async function Product({ product }) {
     console.log(product, 'hi from product');
 
     return (
-        <section className=" mb-2 drop-shadow-xl">
+        <section className=" mb-8 drop-shadow-xl">
 
-            <div className="w-10 rounded-full bg-white text-center absolute -ml-5 mt-4 p-2  border">
+            {
+                product?.award && <div className="flex gap-2 text-white rounded-r-xl bg-[#FF7724] text-center absolute -ml-3 -mt-5 p-2  border">
+                    <Image src={icon7} alt="" />
+                {product?.award}
+            </div>}
+
+            <div className="w-10 rounded-full bg-white text-center absolute -ml-5 mt-8 p-2  border">
                 {product.id}
             </div>
             <div className="lg:grid lg:grid-cols-4 gap-4 bg-white rounded-xl">
