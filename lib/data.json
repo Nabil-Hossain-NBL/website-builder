@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co/LkrHnf6/product.png",
+        "name": "Builder",
+        "title": "hi",
+        "description": "hi",
+        "highlights": "hi",
+        "rating": 9.3,
+        "star": 4.5
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/LkrHnf6/product.png",
+        "name": "Builder",
+        "title": "hi",
+        "description": "hi",
+        "highlights": "hi",
+        "rating": 9.3,
+        "star": 4.5
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/LkrHnf6/product.png",
+        "name": "Builder",
+        "title": "hi",
+        "description": "hi",
+        "highlights": "hi",
+        "rating": 9.3,
+        "star": 4.5
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co/LkrHnf6/product.png",
+        "name": "Builder",
+        "title": "hi",
+        "description": "hi",
+        "highlights": "hi",
+        "rating": 9.3,
+        "star": 4.5
+    }
+]
