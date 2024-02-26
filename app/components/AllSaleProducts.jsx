@@ -3,7 +3,7 @@ import SaleProduct from './SaleProduct';
 
 function AllSaleProducts(props) {
     return (
-        <div className='grid grid-cols-3 gap-8'>
+        <div className='lg:grid lg:grid-cols-3 gap-8'>
             <SaleProduct />
             <SaleProduct />
             <SaleProduct />

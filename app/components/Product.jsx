@@ -8,13 +8,17 @@ async function Product({ product }) {
 
     return (
         <section className=" mb-2 drop-shadow-xl">
-            <div className="grid grid-cols-4 gap-4 bg-white rounded-xl">
+
+            <div className="w-10 rounded-full bg-white text-center absolute -ml-5 mt-4 p-2  border">
+                {product.id}
+            </div>
+            <div className="lg:grid lg:grid-cols-4 gap-4 bg-white rounded-xl">
                 <div className="w-5/6 mx-auto">
                     <Image src={product.img} alt="" width={141} height={103} layout="responsive" />
                     <p className="text-center">{product.name}</p>
                 </div>
 
-                <div className="col-span-2 my-2">
+                <div className="col-span-2 my-2 ml-2 lg:ml-0">
                     <h1> <span className="font-bold">{product.title}</span> {product.description}</h1>
 
                     <h1 className="font-bold my-2">Main highlights</h1>
@@ -22,7 +26,7 @@ async function Product({ product }) {
                         [What You Get]: {product.highlights}
                     </p>
 
-                    <p className="flex mt-3 text-[#1B88F4]" >
+                    <p className="flex justify-center lg:justify-start mt-3 text-[#1B88F4]" >
                         Show more <Image src={icon5} alt="" />
                     </p>
 
@@ -50,9 +54,7 @@ async function Product({ product }) {
                     </div>
 
                 </div>
-                <div className="w-10 rounded-full bg-white text-center absolute -ml-5 mt-4 p-2  border">
-                    {product.id}
-                </div>
+
             </div>
 
 

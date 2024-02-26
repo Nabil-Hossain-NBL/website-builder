@@ -8,7 +8,10 @@ import FourStar from "@/public/FourStar.png";
 function FeaturedProduct(props) {
     return (
         <section className=" mb-2 drop-shadow-xl">
-            <div className="grid grid-cols-4 gap-4 bg-white rounded-xl">
+            <div className="w-10 rounded-full bg-white text-center absolute -ml-5 mt-4 p-2  border">
+                4
+            </div>
+            <div className="lg:grid lg:grid-cols-4 gap-4 bg-white rounded-xl">
                 <div className="w-5/6 mx-auto">
                     <Image src={product} alt="" width={141} height={103} layout="responsive" />
                     <p className="text-center">CDK</p>
@@ -22,7 +25,6 @@ function FeaturedProduct(props) {
                         <p><span className='p-1 bg-white rounded-lg'>9.9</span> building responsive</p>
                         <p><span className='p-1 bg-white rounded-lg'>8.9</span> Cool</p>
                         <p><span className='p-1 bg-white rounded-lg'>8.9</span> Docs</p>
-
                     </div>
                     <h1 className=" my-2">
                         Why we love it
@@ -66,9 +68,7 @@ function FeaturedProduct(props) {
                     </div>
 
                 </div>
-                <div className="w-10 rounded-full bg-white text-center absolute -ml-5 mt-4 p-2  border">
-                    4
-                </div>
+
             </div>
 
 
