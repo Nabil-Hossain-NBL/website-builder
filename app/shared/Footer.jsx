@@ -3,7 +3,7 @@ import React from 'react';
 function Footer(props) {
     return (
         <div className='bg-[#212731] '>
-            <div className='bg-[#212731] max-w-6xl mx-auto grid grid-cols-3'>
+            <div className=' max-w-6xl mx-auto grid grid-cols-3 py-20'>
                 <div>
                     <h1 className='text-white text-[1.3em] mb-2'>Categories</h1>
                     <p className="text-[#B6BDC4]">Web Builder</p>
@@ -19,8 +19,8 @@ function Footer(props) {
                     <p className="text-[#B6BDC4]">Categories</p>
                     <p className="text-[#B6BDC4]">About</p>«
                 </div>
-                <div>
-                    <h1 className='text-white '>United States v</h1>
+                <div className='flex justify-center items-center'>
+                    <h1 className='text-[#B6BDC4] '>United States v</h1>
                 </div>
             </div>
 
