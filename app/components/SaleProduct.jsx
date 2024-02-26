@@ -7,10 +7,9 @@ function SaleProduct(props) {
     return (
         <section className="drop-shadow-2xl  mb-2 ">
             <div className=" bg-white rounded-xl m-2 p-2">
-                <div className="w-3/6 mx-auto">
+                <div className="w-3/6 my-10 mx-auto">
                     <Image src={product} alt="" width={141} height={103} layout="responsive" />
                 </div>
-                <br />
 
                 <div className="">
 
@@ -25,7 +24,7 @@ function SaleProduct(props) {
                     <p className='text-[#626E79]'>
                         Computer  Modern clasic with wix support
                     </p>
-                    <h1>
+                    <h1 className='my-2'>
                         <span className='text-[1.5em]'>$39.96</span>
                         <span className='text-[#9FA9B3] mx-2'>$49.96</span>
                         <span className='text-[#EF4C5D]'>(20% Off)</span>

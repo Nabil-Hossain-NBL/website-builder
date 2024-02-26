@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Image from "next/image";
 import searchIcon from "@/public/searchIcon.png";
+import Footer from "./shared/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,11 +17,12 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <div className="bg-black py-4 ">
           <div className="relative max-w-6xl mx-auto">
-            <Image src={searchIcon} alt=""  className="absolute top-1 left-1"/>
+            <Image src={searchIcon} alt="" className="absolute top-1 left-1" />
             <input type="text" name="searc-bar" placeholder="" className="w-24 md:w-auto p-1 rounded-lg" />
           </div>
         </div>
         {children}
+        <Footer />
       </body>
     </html>
   );
