@@ -5,7 +5,6 @@ import FiveStar from "@/public/FiveStar.png";
 import FourHalfStar from "@/public/FourHalfStar.png";
 
 async function Product({ product }) {
-    console.log(product, 'hi from product');
 
     return (
         <section className=" mb-8 drop-shadow-xl">

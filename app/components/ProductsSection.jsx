@@ -6,7 +6,6 @@ async function ProductsSection(props) {
     return (
         <div>
             {products.map(product => {
-                console.log(product); // Move console.log outside of JSX
                 return <Product key={product.id} product={product} />;
             })}
         </div>
