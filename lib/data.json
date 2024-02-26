@@ -2,41 +2,31 @@
     {
         "id": 1,
         "img": "https://i.ibb.co/LkrHnf6/product.png",
-        "name": "Builder",
-        "title": "hi",
-        "description": "hi",
-        "highlights": "hi",
-        "rating": 9.3,
-        "star": 4.5
+        "name": "Builder 1",
+        "title": "WixPro 72-Inch Responsive Website Builder-",
+        "description": "Comprehensive Digital Platform Creation Tool, Streamlined Design Interface for Professional Websites and Online Stores (Black/Blue)",
+        "highlights": "Receive the WixPro website builder suite, access to premium design templates, an extensive library of widgets and apps, and detailed step-by-step guides.",
+        "rating": 9.8,
+        "star": 5
     },
     {
         "id": 2,
         "img": "https://i.ibb.co/LkrHnf6/product.png",
-        "name": "Builder",
-        "title": "hi",
-        "description": "hi",
-        "highlights": "hi",
-        "rating": 9.3,
+        "name": "Builder 1",
+        "title": "SiteCraft 68-Inch Ultimate Web Design Studio-",
+        "description": "Advanced Site Creation Toolkit, Intuitive Drag-and-Drop Editor for Dynamic Websites and E-commerce Platforms (Green/White)",
+        "highlights": "Gain access to the SiteCraft design studio, featuring a robust selection of design elements, SEO optimization tools, and e-commerce integrations.",
+        "rating": 9.5,
         "star": 4.5
     },
     {
         "id": 3,
         "img": "https://i.ibb.co/LkrHnf6/product.png",
-        "name": "Builder",
-        "title": "hi",
-        "description": "hi",
-        "highlights": "hi",
+        "name": "Builder 1",
+        "title": "WixPro 72-Inch Responsive Website Builder-",
+        "description": " Comprehensive Digital Platform Creation Tool, Streamlined Design Interface for Professional Websites and Online Stores (Black/Blue)",
+        "highlights": "Receive the WixPro website builder suite, access to premium design templates, an extensive library of widgets and apps, and detailed step-by-step guides.",
         "rating": 9.3,
-        "star": 4.5
-    },
-    {
-        "id": 4,
-        "img": "https://i.ibb.co/LkrHnf6/product.png",
-        "name": "Builder",
-        "title": "hi",
-        "description": "hi",
-        "highlights": "hi",
-        "rating": 9.3,
-        "star": 4.5
+        "star": 5
     }
 ]
